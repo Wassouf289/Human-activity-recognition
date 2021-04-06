@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+  <h1>Human Activity Recognition model predicts the following:</h1> <br><br>
+  <h6>The Activity being done in the video titled :<br>
+    {{title}} <br>
+    is mostly: {{ predicted_activity }}</h6>
+  <br>
+  
+  <h5>The probabilities for all the activities are given as following:</h5>
+  <ul>
+    {% for activity,probability in predictions.items() %}
+    <li font-size:30px >{{ activity }} {{probability}}</li>
+    {% endfor %}
+  </ul>
+  <br>
+
+  <div class="form-go-back-main">
+  <button onclick="location.href='/'" type="submit" class="btn btn-primary btn-xl">
+  main page
+</button>
+</div>
+  <br>
+  <br>
+
+
+{% endblock %}
