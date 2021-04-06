@@ -28,5 +28,13 @@ after inserting the youtube link, click 'predict human activity' to get the pred
 
 <img src="screenshots/Screenshot_2.png" >
 
+To use the terminal to get the predicted human activity with percentages, you have two options:
+- python predict_CMD_YT_link.py <<youtube link here>>
+- python predict_CMD_custom_vid.py <<path to the video in your local disc>>
+
+To predict along with the video,or predict a video with more than one activity, you have the option:
+- python  predict_video_frames.py <<path to the video in your local disc>>
+<img src="screenshots/two_activities.gif" >
+
 
 
