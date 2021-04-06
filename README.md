@@ -36,5 +36,22 @@ To predict along with the video,or predict a video with more than one activity, 
 - python  predict_video_frames.py 'path to the video in your local disc'
 <img src="screenshots/two_activities.gif" >
 
+To predict with live webcam, you have the option:
+- python  predict_live_camera.py 
+
+## Tech used:
+ - Python
+ - Flask
+ - HTML
+ - CSS
+ - OpenCv
+ - Tensorflow
+
+## License
+
+[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
+
+- **[MIT license](http://opensource.org/licenses/mit-license.php)**
+
 
 
