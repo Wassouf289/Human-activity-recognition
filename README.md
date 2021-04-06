@@ -38,6 +38,7 @@ To predict along with the video,or predict a video with more than one activity, 
 
 To predict with live webcam, you have the option:
 - python  predict_live_camera.py 
+<img src="screenshots/webcam_predict.gif" >
 
 ## Tech used:
  - Python
