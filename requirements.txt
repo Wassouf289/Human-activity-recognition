@@ -1,0 +1,7 @@
+pafy youtube-dl moviepy
+tensorflow
+pandas
+numpy
+opencv-python
+matplotlib
+flask
