@@ -51,8 +51,8 @@ model = load_model("model_VGG16_CNN_LSTM.h5")
 if __name__ == '__main__':
 
     frames_count = 50
-    parser=argparse.ArgumentParser(description='This program predicts the human ctivity in a youtube video \n current list Activities: \n  [Biking, Drumming, Basketball, Diving,Billiards,HorseRiding,Mixing,PushUps,Skiing,Swing] ')
-    parser.add_argument('path_toVideo',help='give a video with one of those activities \n please give a link to a short video with good quality that contains one person doing that activity')
+    parser=argparse.ArgumentParser(description='This program predicts the human ctivity in a video \n current list Activities: \n  [Biking, Drumming, Basketball, Diving,Billiards,HorseRiding,Mixing,PushUps,Skiing,Swing] ')
+    parser.add_argument('path_toVideo',help='give a video with one of those activities \n please give the path to a short video in your local disc, with good quality that contains one person doing that activity')
 
     args=parser.parse_args()
 
