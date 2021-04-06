@@ -22,11 +22,11 @@ you can use it with either terminal or web interface.
 - for web interface, run python application.py in terminal, go to your browser and type: http://127.0.0.1:5000/
 - insert a link to a youtube video which is short, good quality, for one person doing one of the ten activities .
 
-<img src="screenshots/screenshot_1.png" >
+<img src="screenshots/Screenshot_1.png" >
 
 after inserting the youtube link, click 'predict human activity' to get the predicted activity:
 
-<img src="screenshots/screenshot_2.png" >
+<img src="screenshots/Screenshot_2.png" >
 
 
 
