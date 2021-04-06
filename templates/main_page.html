@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block content %}
+<form action="/activities">
+  <h1 style=font-size:40px>Human Activity recognition </h1> 
+  <br>
+  <br>
+  <br>
+  <h5> 
+  Our model predicts the human activity in a video from Youtube. <br> 
+   current Activities list:</h5> <h4>Biking , Drumming , Basketball , Diving , Billiards , HorseRiding , Mixing , PushUps , Skiing , Swing.</h4> <br>
+  <h5>please give a youtube link with one of those activities,a short video with good quality that contains one person doing that activity.
+  </h5>
+   <br>
+  <div class="form_group">
+    <label for="Youtube link"><h6>Youtube link</h6></label>
+    <input type="text" id="YT_link" name="YT_link" placeholder="https://www.youtube.com/watch?v=oyvjL3C9rj4" required/>
+  </div>  
+  <br>
+  <div class="prediction">
+    <button class="btn btn-primary btn-xl text-uppercase" type="submit" name="predict_activity"> predict human activity </button>
+  </div>
+  </form>
+  <br>
+<br>
+{% endblock %}
