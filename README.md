@@ -10,7 +10,7 @@ we tried with two models:
 
 1- Model_1: Convolutional neural networks with pretrained model VGG16 (64*64*3)
 
-2- Model_2: used the same previous model with Bidirectional LSTM
+2- Model_2: used the same previous model with Bidirectional LSTM.
 
 only the first model provided in Github, the second model isn't , due to large size, please contact me if you want to get it.
 
